@@ -7,8 +7,11 @@ This C++ project implements a Maze Solver using Depth-First Search (DFS), Breadt
 ## ✨ Features
 
 ✅ DFS, BFS, and A* search for solving mazes efficiently.
+
 ✅ Real-time graphical visualization using OpenGL.
+
 ✅ Dynamic maze input (supports file-based or user-defined mazes).
+
 ✅ Tracks explored paths and highlights the final shortest path.
 
 ## 🛠️ How to Run
