@@ -14,24 +14,22 @@ This C++ project implements a Maze Solver using Depth-First Search (DFS), Breadt
 ## 🛠️ How to Run
 
 ➡️Compile the program (ensure OpenGL is installed):
-'''sh
+```sh
 g++ MazeSolver.cpp -o MazeSolver -lGL -lGLU -lglut
-'''
+```
 ➡️Run the program:
-
+```sh
 ./MazeSolver
-
+```
 ➡️Choose an algorithm:
-
+```sh
 1 for DFS
-
 2 for BFS
-
 3 for A*
-
+```
 View the visualization as the algorithm progresses.
 
-🏗️ Future Enhancements
+## 🏗️ Future Enhancements
 
 🔹 Customizable UI for interactive maze generation.
 
@@ -39,6 +37,6 @@ View the visualization as the algorithm progresses.
 
 🔹 Performance optimizations for faster visual rendering.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests, feature enhancements, and issue reports are welcome!
