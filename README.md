@@ -1,25 +1,22 @@
-🏁 Maze Solver in C++ (DFS, BFS & A*) with OpenGL Visualization
+### 🏁 Maze Solver in C++ (DFS, BFS & A*) with OpenGL Visualization
 
-📌 Overview
+## 📌 Overview
 
 This C++ project implements a Maze Solver using Depth-First Search (DFS), Breadth-First Search (BFS), and A Search Algorithm*. It features a dynamic visualization using OpenGL, allowing real-time pathfinding representation.
 
-✨ Features
+## ✨ Features
 
 ✅ DFS, BFS, and A* search for solving mazes efficiently.
-
 ✅ Real-time graphical visualization using OpenGL.
-
 ✅ Dynamic maze input (supports file-based or user-defined mazes).
-
 ✅ Tracks explored paths and highlights the final shortest path.
 
-🛠️ How to Run
+## 🛠️ How to Run
 
 ➡️Compile the program (ensure OpenGL is installed):
-
+'''sh
 g++ MazeSolver.cpp -o MazeSolver -lGL -lGLU -lglut
-
+'''
 ➡️Run the program:
 
 ./MazeSolver
