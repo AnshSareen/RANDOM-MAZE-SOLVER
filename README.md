@@ -49,5 +49,52 @@ A visual demonstration of maze-solving algorithms (DFS, BFS, and A*) built using
 
 ## ▶️ How to Run
 
-1. On running, an **initial maze preview window** opens for 3 seconds.
+1. On running, an **initial maze preview window** opens for 6 seconds.(You can change it according to your preference)
 2. You are prompted in the **CLI**:
+Choose Algorithm:
+1 - Depth-First Search (DFS)
+2 - Breadth-First Search (BFS)
+3 - A* Search
+Enter option (1/2/3):
+3. The **final maze solving visualization** window opens.
+4. Press **ESC** to close the visualization.
+
+---
+
+## 🧠 Algorithms
+
+### Depth-First Search (DFS)
+
+- Explores deeply along one path until dead-end.
+- Fast but may not find shortest path.
+
+### Breadth-First Search (BFS)
+
+- Explores level by level.
+- Guarantees shortest path in unweighted graphs.
+
+### A* Search
+
+- Heuristic + cost-based search (Manhattan distance).
+- Balances exploration speed and path optimality.
+
+---
+
+## 📁 File Structure
+
+- `main.cpp` – core logic and rendering
+- SFML 3.0.0 – must be linked externally
+
+---
+
+## 🙋‍♂️ Credits
+
+Developed as part of a **minor project** using modern SFML.
+
+---
+
+## 💡 Notes
+
+- Maze is generated with multiple paths to allow variation in algorithm decisions.
+- UI completely avoids SFML 2.x constructs like `sf::Event`.
+
