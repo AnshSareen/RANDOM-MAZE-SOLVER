@@ -50,12 +50,12 @@ A visual demonstration of maze-solving algorithms (DFS, BFS, and A*) built using
 ## ▶️ How to Run
 
 1. On running, an **initial maze preview window** opens for 6 seconds.(You can change it according to your preference)
-2. You are prompted in the **CLI**:
-Choose Algorithm:
-1 - Depth-First Search (DFS)
-2 - Breadth-First Search (BFS)
-3 - A* Search
-Enter option (1/2/3):
+2. You are prompted in the **CLI**:<br>
+Choose Algorithm:<br>
+1 - Depth-First Search (DFS)<br>
+2 - Breadth-First Search (BFS)<br>
+3 - A* Search<br>
+Enter option (1/2/3):<br>
 3. The **final maze solving visualization** window opens.
 4. Press **ESC** to close the visualization.
 
