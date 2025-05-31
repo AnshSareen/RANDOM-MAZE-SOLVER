@@ -1,53 +1,21 @@
-# Maze Solver – Project Poster Overview
+# Maze Solver – Poster Summary
 
-This project presents a visual and algorithmic approach to solving mazes using classic pathfinding techniques. Initially created with educational clarity in mind, it demonstrates how **DFS**, **BFS**, and **A\*** algorithms behave across random mazes.
+This document briefly introduces the project poster that complements the Maze Solver repository.
 
-## 📌 Objective
+## 🧩 Poster Overview
+The poster visually outlines how classic pathfinding algorithms — **DFS**, **BFS**, and **A\*** — solve a maze generated randomly at runtime. It highlights:
 
-To develop a maze-solving program that clearly visualizes how different algorithms navigate through mazes, and to compare their efficiency in various scenarios.
+- The **objective** of the project  
+- A comparison of **algorithm behavior**  
+- The **maze structure and cell color legend**  
+- Sample visual outputs for each algorithm  
+- A **side-by-side performance comparison** (conceptual, not benchmarked)  
 
-## 🧠 Algorithms Used
-
-- **Depth-First Search (DFS)**  
-  Explores deeply along a path before backtracking. Fast, but not guaranteed to find the shortest path.
-
-- **Breadth-First Search (BFS)**  
-  Explores all neighbors level by level. Guarantees the shortest path in unweighted mazes.
-
-- **A\* Search**  
-  Combines actual distance from start and heuristic (Manhattan) to end. Fastest and most optimal in many cases.
-
-## 🧱 Maze Features
-
-- Randomly generated at each run  
-- Walls (black), paths (white), visited nodes (red), solution path (blue)  
-- Start (green) and End (magenta) marked clearly  
-- Multiple valid paths for richer algorithm behavior  
-
-## 🖥️ Visual Output (Poster Highlights)
-
-The poster showcases basic SFML renderings:
-
-- A grid-based maze with thick walls  
-- Immediate color-coded output for selected algorithms  
-- User input (algorithm choice) via CLI  
-
-## 📊 Performance Displayed
-
-- Side-by-side visualizations of DFS, BFS, and A*  
-- Timings and visited node counts to compare efficiency (shown conceptually in the poster)
-
----
-
-### 📎 Poster Context Note
-
-The visuals and performance comparison in the poster reflect the initial implementation.  
-The code in this repository has since been upgraded to **SFML 3.0.0** with a more refined interface and interaction model.
+## 📸 Why It's Included
+The poster captures the **original, simpler version** of the Maze Solver interface. It helps illustrate the evolution from a basic UI to the current SFML 3.0.0-based implementation.
 
 ---
 
 ### 📌 Note
-
-The UI shown in the poster reflects an earlier, simpler version of the project using basic SFML window drawing.  
-The current implementation (available in this repository) uses an enhanced interface fully aligned with **SFML 3.0.0**, offering clearer visuals and a split UI for preview and solving phases.
-
+The visuals in the poster were created before the final version of the project.  
+While the core logic remains the same, the UI has since been improved to better align with modern SFML standards.
